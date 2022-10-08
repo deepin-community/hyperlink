@@ -1,0 +1,78 @@
+hyperlink (21.0.0-3) unstable; urgency=medium
+
+  [ Stefano Rivera ]
+  * Team upload.
+  * Drop tox Build-Dep, we're doing build-time tests without it, fixes FTBFS
+    with dh-python >= 5.20211105.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Stefano Rivera <stefanor@debian.org>  Fri, 05 Nov 2021 00:48:34 -0700
+
+hyperlink (21.0.0-2) unstable; urgency=medium
+
+  * Uploading to unstable.
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 29 Sep 2021 13:41:54 +0200
+
+hyperlink (21.0.0-1) experimental; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Thomas Goirand ]
+  * Team upload.
+  * New upstream release.
+  * Ran wrap-and-sort -bastk.
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 25 Aug 2021 11:01:11 +0200
+
+hyperlink (19.0.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Sandro Tosi ]
+  * Drop python2 support; Closes: #936714
+
+ -- Sandro Tosi <morph@debian.org>  Wed, 01 Apr 2020 23:04:18 -0400
+
+hyperlink (19.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * d/watch: Use https protocol
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Håvard Flaget Aasen ]
+  * New upstream version 19.0.0
+  * Bump dh to 12
+  * Add tests for python 3.7 and 3.8
+  * Update Standards-Version to 4.4.1
+
+ -- Håvard Flaget Aasen <haavard_aasen@yahoo.no>  Tue, 19 Nov 2019 14:16:42 +0100
+
+hyperlink (17.3.1-2) unstable; urgency=medium
+
+  * Bump Standards-Version to 4.0.0
+  * Improve package description
+
+ -- Free Ekanayaka <freee@debian.org>  Mon, 28 Aug 2017 06:49:26 +0000
+
+hyperlink (17.3.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #873415)
+
+ -- Free Ekanayaka <freee@debian.org>  Sun, 27 Aug 2017 14:25:22 +0000
